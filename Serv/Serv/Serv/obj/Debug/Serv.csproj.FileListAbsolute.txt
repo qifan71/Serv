@@ -1,0 +1,7 @@
+C:\Users\Entertainment\Desktop\Servers\Serv\Serv\Serv\bin\Debug\Serv.exe.config
+C:\Users\Entertainment\Desktop\Servers\Serv\Serv\Serv\bin\Debug\Serv.exe
+C:\Users\Entertainment\Desktop\Servers\Serv\Serv\Serv\bin\Debug\Serv.pdb
+C:\Users\Entertainment\Desktop\Servers\Serv\Serv\Serv\bin\Debug\MySql.Data.dll
+C:\Users\Entertainment\Desktop\Servers\Serv\Serv\Serv\obj\Debug\Serv.csprojResolveAssemblyReference.cache
+C:\Users\Entertainment\Desktop\Servers\Serv\Serv\Serv\obj\Debug\Serv.exe
+C:\Users\Entertainment\Desktop\Servers\Serv\Serv\Serv\obj\Debug\Serv.pdb
