@@ -59,9 +59,25 @@ namespace Serv
             //    Console.WriteLine("重新获取玩家数据失败");
             //}
             //Console.ReadLine();
+            DataMgr dataMgr = new DataMgr();//只有实例化的对象才能使用单例模式(此框架中,其他实现instance的方式不同,情况不同)
             ServNet servNet = new ServNet();
             servNet.proto = new ProtocolBytes();
             servNet.Start("127.0.0.1", 1234);
+            while (true)
+            {
+                string str = Console.ReadLine();
+                switch (str)
+                {
+                    case "quit":
+                        servNet.Close();
+                        return;
+                    case "print":
+                        servNet.Print();
+                        break;
+                    default:
+                        break;
+                }
+            }
             Console.ReadLine();
         }
     }

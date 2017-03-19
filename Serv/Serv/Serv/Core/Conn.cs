@@ -65,7 +65,7 @@ public class Conn
         if (player!=null)
         {
             //玩家退出处理,稍后实现
-            //player.LogOut();
+            player.Logout();
 
             return;
         }

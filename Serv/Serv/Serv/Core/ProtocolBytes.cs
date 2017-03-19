@@ -122,7 +122,7 @@ public class ProtocolBytes : ProtocolBase
         return BitConverter.ToSingle(bytes, start);
     }
     //
-    public float GetInt(int start)
+    public float GetFloat(int start)
     {
         int end = 0;
         return GetFloat(start, ref end);

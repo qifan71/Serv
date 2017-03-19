@@ -12,7 +12,7 @@ class DataMgr
 {
     MySqlConnection sqlConn;  //唯一的连接对象
     //单例模式
-    public DataMgr instance;
+    public static DataMgr instance;
     public DataMgr()
     {
         instance = this;
