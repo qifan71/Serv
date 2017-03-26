@@ -58,24 +58,23 @@
     <Reference Include="UnityEngine.Networking">
       <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Networking">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\ClientNetFrame\Connection.cs" />
+    <Compile Include="Assets\ClientNetFrame\Core\Connection.cs" />
+    <Compile Include="Assets\ClientNetFrame\Core\MsgDistribution.cs" />
+    <Compile Include="Assets\ClientNetFrame\Core\NetMgr.cs" />
     <Compile Include="Assets\ClientNetFrame\Core\ProtocolBase.cs" />
     <Compile Include="Assets\ClientNetFrame\Core\ProtocolBytes.cs" />
     <Compile Include="Assets\ClientNetFrame\Core\ProtocolStr.cs" />
-    <Compile Include="Assets\ClientNetFrame\MsgDistribution.cs" />
-    <Compile Include="Assets\ClientNetFrame\NetMgr.cs" />
+    <Compile Include="Assets\ClientNetFrame\Panel\LoginPanel.cs" />
+    <Compile Include="Assets\ClientNetFrame\Panel\PanelBase.cs" />
+    <Compile Include="Assets\ClientNetFrame\Panel\PanelMgr.cs" />
+    <Compile Include="Assets\ClientNetFrame\Panel\RegPanel.cs" />
     <Compile Include="Assets\ClientNetFrame\Root.cs" />
+    <Compile Include="Assets\ClientNetFrame\Walk.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />
 </Project>

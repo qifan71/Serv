@@ -57,6 +57,8 @@
     <Compile Include="Logic\HandlePlayerMsg.cs" />
     <Compile Include="Logic\PlayerData.cs" />
     <Compile Include="Logic\PlayerTempData.cs" />
+    <Compile Include="Logic\Scene.cs" />
+    <Compile Include="Logic\ScenePlayer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
